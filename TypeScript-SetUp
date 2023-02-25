@@ -1,0 +1,16 @@
+1. npm init
+2. npm i express dotenv
+3. npm i -D typescript @types/express @types/node
+4. npx tsc --init
+5. npm i -D concurrently nodemon
+6. package.json
+  {
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "start": "node dist/app.js",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/app.js\""
+  }
+  }
+7. npm run build
+8. npm run dev
