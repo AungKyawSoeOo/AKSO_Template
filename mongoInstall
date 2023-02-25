@@ -1,0 +1,16 @@
+1. Go to mogodb.com/try/download/community and install latest (msi)
+2. Go to C/ program files /... mogoDb /bin then copy path and define environment variable.
+    -- search environment 
+    ->  environment var 
+    -> go to path and click edit
+    -> click new and paste copy mogo bin path and save
+3. create folder called data in C: then create folder calledb db in data.
+ C:data:db
+
+ Installing mongosh
+ 1. Go to mogodb.com/try/download/shell and install (zip)
+ 2. Extract zip and copy files inside bin to C/ program files /... mogoDb /bin.
+
+ Running mongo
+    - mongod (server)
+    - mongosh in powershell
