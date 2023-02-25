@@ -1,0 +1,27 @@
+1. First init git in pj folder.
+> git init
+
+2. create a repository in gitHub
+
+In the pj folder , open terminal and run
+3. > git remote add origin copyHttpName
+
+4. > git push -u origin main 
+
+//adding files to git repo
+    - git status (to check new added file and conditions)
+    - git add index.html/. (add to staging area)
+    - git commit -m "added" (add to version control - local repo)
+    - git push -u origin main (push local repo to remote repo)
+
+// other commands
+- ls -Hidden (check hidden git file)
+- git log (to check which commit has done)
+- git rm --cached -r . (remove every files from staging area) . means all
+- git clone httpLink (cloning git repo)
+
+// branch
+git branch name (create)
+git branch (check all branches)
+git checkout name (switch branch)
+git merge branchName  (merge branch)
