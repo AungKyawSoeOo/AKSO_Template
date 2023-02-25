@@ -1,0 +1,182 @@
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../font/Helvetica.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../font/Helvetica-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/Roboto-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/Roboto-Bold.ttf');
+  font-weight: 700;
+}
+/*header*/
+
+.main .l-inner .head {
+  float: left;
+  padding: 17px 0;
+}
+
+.main .l-inner .head h1 a {
+  color: #FA6980;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.main .l-inner .nav ul {
+  float: right;
+  line-height: 43px;
+}
+
+.main .l-inner .nav ul li {
+  margin-right: 30px;
+}
+
+.main .l-inner .nav ul li:last-child {
+  margin-right: 0;
+}
+
+.main .l-inner .nav ul li a {
+  color: #959798;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.main .l-inner .nav ul li a.active {
+  color: #343638;
+}
+
+.main {
+  background-color: #F6F8F9;
+}
+
+/*common heading*/
+.common-h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/*common btn*/
+.common-btn {
+  margin-top: 29px;
+  padding: 13px 30px;
+  border: 1px solid transparent;
+  background-color: #FA6980;
+  color: #FFFFFF;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 6px;
+}
+
+.common-btn:hover {
+  border: 1px solid #FA6980;
+  background-color: #FFFFFF;
+  color: #FA6980;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+/*Footer*/
+.footer {
+  width: 100%;
+  margin-top: 97px;
+  padding: 20px 0;
+  background-color: #A6ADB4;
+  color: #FFFFFF;
+}
+
+.foot-left {
+  float: left;
+  width: 50%;
+}
+
+.foot-left h2 {
+  float: left;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.foot-left ul {
+  float: left;
+  margin-top: -3px;
+
+}
+
+.foot-left ul li {
+  margin-right: 28px;
+  color: #CBD0D3;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+
+}
+
+.foot-left ul li:first-child {
+  margin-left: 40px;
+}
+
+.foot-left ul li p {
+  margin-bottom: 10px;
+
+}
+
+.foot-right {
+  float: right;
+  width: 50%;
+}
+
+.footer .l-inner {
+  padding: 38px 0;
+}
+
+.email-con {
+  float: left;
+  margin-left: 17px;
+}
+
+.icon {
+  float: right;
+}
+
+.email-con input {
+  padding: 11px 70px 11px 20px;
+  border: 1px solid #CBD0D3;
+  background: url('../img/common/img_send.png') no-repeat;
+  background-color: #A6ADB4;
+  background-position: right 15px top 10px;
+  color: #CBD0D3;
+  outline: none;
+  border-radius: 5px;
+}
+
+.email-con input::placeholder {
+  color: #CBD0D3;
+  font-size: 13px;
+}
+
+.email-con p {
+  margin-top: 17px;
+  color: #CBD0D3;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.icon img {
+  margin-right: 27px;
+}
+
+/*.icon img:last-child {
+  margin-right: 0;
+}*/
